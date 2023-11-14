@@ -9,7 +9,7 @@ a demo using KCF is included as the reference.
 
 # Installation via git and conda
 
-1. Clone the GIT repository
+1. Clone the GIT repository.
 
 2. Run the following command to create virtual environment according to the environment.yml.  
    Reference to [here](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file).
@@ -33,7 +33,12 @@ python -m ipykernel install --name got
 
     Instruction refers to [here](https://www.mathworks.com/help/matlab/matlab_external/install-supported-python-implementation.html).
 
-8. Run the demo (demo_gusot).
+8. Download the PDollar Toolbox 
+[here](https://github.com/pdollar/toolbox). 
+Rename the root folder as pdollar_toolbox and 
+put it under gusot/external_libs to replace the empty placeholder there. 
+
+9. Run the demo (demo_gusot).
 
    Functions on how to run the tracker and examples are included in the demo.
 
